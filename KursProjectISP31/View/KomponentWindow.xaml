@@ -1,0 +1,47 @@
+﻿<Window x:Class="KursProjectISP31.View.KomponentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursProjectISP31.View"
+        xmlns:vm="clr-namespace:KursProjectISP31.ViewModel"
+        mc:Ignorable="d"
+        Title="Добавление автора" Height="450" Width="400"
+AllowsTransparency="True"
+WindowStyle="None"
+Background="Black">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Text="{Binding Idkomp}" Grid.Row="0"
+                 Tag="введите айди компании" 
+                 Style="{StaticResource PlaceholderTextBoxStyle}"/>
+        <TextBox Text="{Binding Namekomp}" Grid.Row="1"
+                 Tag="введите название компании"
+                 Style="{StaticResource PlaceholderTextBoxStyle}"/>
+        <TextBox Text="{Binding Neobxodimo}" Grid.Row="2"
+         Tag="кол-во необхоимого компонента"
+         Style="{StaticResource PlaceholderTextBoxStyle}"/>
+        <TextBox Text="{Binding Kolvonasclade}" Grid.Row="3"
+         Tag="введите название компании"
+         Style="{StaticResource PlaceholderTextBoxStyle}"/>
+        <Grid Grid.Row="4">
+         <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+    <Button Content="OK" Grid.Column="0" Click="Button_Click" Style="{StaticResource DialogStyle}"/>
+    <Button Content="Cancel" Grid.Column="1"
+            Style="{StaticResource DialogStyle}"
+            Click="Button_Click_1"/>
+    </Grid>
+    
+    
+    </Grid>
+
+</Window>
