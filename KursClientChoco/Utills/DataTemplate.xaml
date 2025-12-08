@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:KursClientChoco.ViewModel"
+                    xmlns:view="clr-namespace:KursClientChoco.View">
+    <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+        <view:Home/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:KomponentViewModel}">
+        <view:KomponentView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:SumzakazViewModel}">
+        <view:SumzakazView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:ZakaznakompViewModel}">
+        <view:ZakaznakompView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:NavigationViewModel}"
+                  <view:ZakaznakompView/>
+</ResourceDictionary>

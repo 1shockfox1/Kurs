@@ -5,7 +5,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
-namespace KursProjectISP31.Model;
+namespace   KursClientChoco.Model;
 
 public partial class Zakaznakomp
 {

@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="KursClientChoco.View.SumzakazView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KursClientChoco.View"
+             xmlns:vm="clr-namespace:KursClientChoco.ViewModel"
+             xmlns:Menu="clr-namespace:KursClientChoco.Utills"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             mc:Ignorable="d" 
+                      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+         Style="{StaticResource Page_Style}">
+    <UserControl.DataContext>
+        <vm:SumzakazViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="463*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="0,20,20,0" Margin="0,5,5,0" Grid.ColumnSpan="2">
+            <Grid Margin="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="9*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Style="{StaticResource Text_Style}" Grid.Row="0"
+                   Text="Заказы"/>
+                <StackPanel Orientation="Horizontal" Grid.Row="1"
+                    HorizontalAlignment="Right" 
+                    VerticalAlignment="Center">
+                    <Button Margin="5 0">
+                        <Image Source="/Assets/tablik.png" />
+                    </Button>
+                    <Button Margin="5 0">
+                        <Image Source="/Assets/blok.png"/>
+                    </Button>
+                </StackPanel>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource Text_Style}">
+                    Показать
+                        </TextBlock>
+                        <ComboBox Width="100">
+                            <sys:String>10</sys:String>
+                            <sys:String>50</sys:String>
+                            <sys:String>100</sys:String>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1">
+                        <Image Source="/Assets/search.png" 
+                       Style="{StaticResource Image_Style}"/>
+                        <TextBox Width="200" Height="25" Text="{Binding SearchText,UpdateSourceTrigger=PropertyChanged}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="TextChanged">
+                                    <i:InvokeCommandAction
+                                Command="{Binding SearchCommand}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBox>
+                    </StackPanel>
+                    <Button Grid.Column="2" HorizontalAlignment="Right"
+                    Background="Transparent" Command="{Binding AddCommand}"
+                    BorderBrush="Black">
+                        <Image Source="/Assets/i.png"/>
+                    </Button>
+                </Grid>
+                <DataGrid ItemsSource="{Binding Sumzakazs}"
+              AutoGenerateColumns="False" Grid.Row="3" IsReadOnly="True"
+                  SelectedItem="{Binding SelectedSumzakaz}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDoubleClick">
+                            <i:InvokeCommandAction
+                        Command="{Binding EditCommand}"
+                        CommandParameter="{Binding SelectedSumzakaz}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Изменить" 
+                              Command="{Binding EditCommand}"
+                              CommandParameter="{Binding SelectedSumzakaz}"/>
+                            <MenuItem Header="Удалить" 
+                              Command="{Binding DeleteCommand}"
+                              CommandParameter="{Binding SelectedSumzakaz}"/>
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.Columns >
+                        <DataGridTextColumn Header="Дата заказа" Width="Auto" Binding="{Binding Datazakaza}"/>
+                        <DataGridTextColumn Header="Клиент" Width="Auto" Binding="{Binding Client}"/>
+                        <DataGridTextColumn Header="Товар" Width="Auto" Binding="{Binding Tovar}"/>
+                        <DataGridTextColumn Header="количество товара" Width="Auto" Binding="{Binding Kolvo}"/>
+                        <DataGridTextColumn Header="Цена" Width="Auto" Binding="{Binding Cina}"/>
+                        <DataGridTextColumn Header="Статус" Width="Auto" Binding="{Binding Status}"/>
+                        <DataGridTextColumn Header="айди заказа" Width="Auto" Binding="{Binding Idzakaza}"/>
+                        <DataGridTextColumn Header="Дополнительная информация" Width="Auto" 
+                                    Binding="{Binding AdditionalInformation}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

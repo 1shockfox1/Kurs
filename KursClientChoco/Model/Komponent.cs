@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 
-namespace KursProjectISP31.Model;
+namespace KursClientChoco.Model;
 
 public partial class Komponent
 {
