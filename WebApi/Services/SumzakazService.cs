@@ -1,6 +1,7 @@
 ﻿
-using Microsoft.EntityFrameworkCore;
 using KursProjectISP31.Model;
+using Microsoft.EntityFrameworkCore;
+using WebApi.Model;
 
 namespace WebApi.Services
 {
