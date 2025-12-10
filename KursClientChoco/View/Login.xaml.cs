@@ -10,19 +10,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace KursClientChoco.View
 {
     /// <summary>
-    /// Логика взаимодействия для ZakaznakompView.xaml
+    /// Логика взаимодействия для Login.xaml
     /// </summary>
-    public partial class ZakaznakompView : UserControl
+    public partial class Login : Window
     {
-        public ZakaznakompView()
+        public static Login Instance {get; private set;}
+        public Login()
         {
             InitializeComponent();
+            Instance = this;
+        }
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            Registr regWindow = new Registr();
+            regWindow.Show();
         }
     }
 }

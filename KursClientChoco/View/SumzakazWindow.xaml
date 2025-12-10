@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KursClientChoco.View"
-        xmlns:vm="clr-namespace:KursClientChoco.ViewModel"
+        xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
         mc:Ignorable="d"
         Title="Добавление Заказов" Height="450" Width="400"
         AllowsTransparency="True"

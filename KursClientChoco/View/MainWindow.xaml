@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KursClientChoco"
         mc:Ignorable="d"
-        xmlns:vm="clr-namespace:KursClientChoco.ViewModel"
+        xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
         xmlns:Menu="clr-namespace:KursClientChoco.Utills"
         Title="Магазин" Height="500" Width="900"
         AllowsTransparency="True"

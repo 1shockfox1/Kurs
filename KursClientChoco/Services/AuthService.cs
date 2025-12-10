@@ -1,12 +1,41 @@
-﻿using System;
+﻿using KursClientChoco.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace KursClientChoco.Services
 {
-    internal class AuthService
+    public class AuthService
     {
+       private HttpClient client = new HttpClient();
+        public async Task<String> Regi(Person person)
+        {
+            JsonContent content = JsonContent.Create(person);
+            using var response = await client.PostAsync("http://localhost:5084/register", content);
+            string responseText = await response.Content.ReadAsStringAsync();
+            if (responseText != "")
+            {
+                return $"Пользователь {person.Email} успешно создан";
+            }
+            return $"Пользователь {person.Email} существует!";
+        }
+        public async Task<Response> SignIn(Person person)
+        {
+            JsonContent content = JsonContent.Create(person);
+            using var response = await client.PostAsync("http://localhost:5084/login", content);
+            string responseText = await response.Content.ReadAsStringAsync();
+            if (responseText != "")
+            {
+                Response resp = JsonSerializer.Deserialize<Response>(responseText)!;
+                return resp;
+            }
+            return null!;
+        }
     }
-}
+ }
+

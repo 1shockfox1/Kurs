@@ -4,14 +4,14 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:KursClientChoco.View"
-             xmlns:vm="clr-namespace:KursClientChoco.ViewModel"
+             xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
              xmlns:Menu="clr-namespace:KursClientChoco.Utills"
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
                       xmlns:sys="clr-namespace:System;assembly=mscorlib"
          Style="{StaticResource Page_Style}">
     <UserControl.DataContext>
-        <vm:SumzakazViewModel/>
+        <vm:SumzakazViewModels/>
     </UserControl.DataContext>
     <Grid>
         <Grid.ColumnDefinitions>

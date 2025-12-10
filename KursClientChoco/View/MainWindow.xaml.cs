@@ -1,4 +1,5 @@
-﻿using KursClientChoco.ViewModel;
+﻿using KursClientChoco.View;
+using KursClientChoco.ViewModels;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,9 +18,14 @@ namespace KursClientChoco;
 /// </summary>
 public partial class MainWindow : Window
 {
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
    
     private void CloseApp_Click(object sender, RoutedEventArgs e)
     {
         Close();
+        Login.Instance.Close();
     }
 }

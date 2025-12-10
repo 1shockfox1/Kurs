@@ -11,14 +11,12 @@ namespace KursClientChoco.Helpers
 {
     internal class IdKompToName : IValueConverter
     {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture )
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            int id = int.Parse( value.ToString()!);
-            using (GgContext db = new GgContext())
-            {
-                return db.Komponents.Where(p => p.Idkomp == id).FirstOrDefault()!.Namekomp!;
-            }
+            int id = int.Parse(value.ToString()!);
+            return id;
         }
+        
 
         public object ConvertBack(object value, Type TargetType, object parametr, CultureInfo culture)
         {

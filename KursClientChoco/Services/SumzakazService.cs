@@ -3,56 +3,73 @@ using KursClientChoco.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows;
 
-namespace KursProjectISP31.Services
+namespace KursClientChoco.Services
 {
     internal class SumzakazService : BaseService<Sumzakaz>
 
     {
-        public override bool Add(Sumzakaz obj)
+        private HttpClient httpClient;
+        public SumzakazService()
         {
-           using (GgContext db = new GgContext())
-            {
-                db.Sumzakazs.Add(obj);
-                db.SaveChangesAsync();
-            }
-           return true;
+            httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer" + Regi.access_token);
         }
-        public override bool Delete(Sumzakaz obj)
+        public override async Task Add(Sumzakaz obj)
         {
-            using (GgContext db = new GgContext())
+            try
             {
-                db.Sumzakazs.Remove(obj);
-                db.SaveChangesAsync();
+                JsonContent content = JsonContent.Create(obj);
+                using var response = await httpClient.PostAsync("https://localhost:7229/api/Chitateli", content);
+                string responseText = await response.Content.ReadAsStringAsync();
+                if (responseText != null)
+                {
+                    Sumzakaz resp = JsonSerializer.Deserialize<Sumzakaz>(responseText!)!;
+                    if (resp == null) MessageBox.Show(responseText);
+                }
             }
-            return true;
-        }
-        public override List<Sumzakaz> GetAll()
-        {
-            using (GgContext db = new GgContext())
-            {
-                return db.Sumzakazs.ToList();
-            }
-        }
-        public override bool Update(Sumzakaz obj)
-        {
-            using (GgContext db = new GgContext())
-            {
-                db.Sumzakazs.Update(obj);
-                db.SaveChangesAsync();
-            }
-            return true;
-        }
-        public override List<Sumzakaz> Search(string str)
-        {
-            using (GgContext db = new GgContext())
-            {
-                return db.Sumzakazs.Where(p => p.Datazakaza!.StartsWith(str) ||
-                    p.Client.ToString().StartsWith(str)).ToList();
-            }
+            catch { }
 
         }
+        public override async Task Delete(Sumzakaz obj)
+        {
+            using var response = await httpClient.DeleteAsync($"https://localhost:7229/api/Chitateli/{obj.Idzakaza}");
+
+        }
+
+        public override async Task<List<Sumzakaz>> GetAll()
+        {
+            return (await httpClient.GetFromJsonAsync<List<Sumzakaz>>("https://localhost:7229/api/Chitateli"))!;
+        }
+
+
+        public override Task<List<Sumzakaz>> Search(string str)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override async Task Update(Sumzakaz obj)
+        {
+            try
+            {
+                JsonContent content = JsonContent.Create(obj);
+                using var response = await httpClient.PutAsync($"https://localhost:7229/api/Chitateli/{obj.Idzakaza}", content);
+                string responseText = await response.Content.ReadAsStringAsync();
+                if (responseText != null)
+                {
+                    Sumzakaz resp = JsonSerializer.Deserialize<Sumzakaz>(responseText!)!;
+                    if (resp == null) MessageBox.Show(responseText);
+                }
+
+            }
+            catch { }
+        }
+
     }
 }

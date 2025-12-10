@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Xml.Serialization;
 
-namespace KursClientChoco.ViewModel
+namespace KursClientChoco.ViewModels
 {
-    public class NavigationViewModel:ViewModelBase
+    public class NavigationViewModel : ViewModelBase
     {
         private object _currentView;
         public object CurrentView
@@ -20,29 +20,13 @@ namespace KursClientChoco.ViewModel
             set { _currentView = value; OnPropertyChanged(); }
         }
         public ICommand HomeCommand { get; set; }
-
-        public ICommand KomponentCommand { get; set; }
-
         public ICommand SumzakazCommand { get; set; }
-
-        public ICommand ZakaznakompCommand {  get; set; }
-
         private void Home(object obj) => CurrentView = new HomeViewModel();
-       
-        private void Komponent(object obj) => CurrentView = new KomponentViewModel();
-
-        private void Sumzakaz(object obj) => CurrentView = new SumzakazViewModel();
-
-        private void Zakaznakomp(object obj) => CurrentView = new ZakaznakompViewModel();
-      
-
+        private void Sumzakaz(object obj) => CurrentView = new SumzakazViewModels();
         public NavigationViewModel()
         {
             HomeCommand = new RelayCommand(Home);
-            KomponentCommand = new RelayCommand(Komponent);
             SumzakazCommand = new RelayCommand(Sumzakaz);
-            ZakaznakompCommand = new RelayCommand(Zakaznakomp);
-            // Startup Page
             CurrentView = new HomeViewModel();
         }
     }
