@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KursClientChoco.Model
 {
-    internal class Response
+    public class Response
     {
 
         public string?  asset_token { get; set; }

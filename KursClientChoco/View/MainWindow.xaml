@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:KursClientChoco"
         mc:Ignorable="d"
+        xmlns:local="clr-namespace:KursClientChoco.View"
         xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
         xmlns:Menu="clr-namespace:KursClientChoco.Utills"
         Title="Магазин" Height="500" Width="900"
@@ -12,9 +12,7 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         Background="Transparent">
-    <Window.DataContext>
-        <vm:NavigationViewModel/>
-    </Window.DataContext>
+    
     <Grid>
         <Border Background="#212529"
                 CornerRadius="20" />
@@ -40,11 +38,9 @@
                     <!--// Home //-->
 
                     <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding HomeCommand}"
+                              Command="{Binding}"
                               IsChecked="True"
                               Height="80">
-
-
                         <Grid>
 
                             <Image Source="/Assets/img_home.png"
@@ -54,26 +50,10 @@
                                        Style="{StaticResource Text_Style}" />
 
                         </Grid>
-
                     </Menu:Btn>
 
-                    <!--// Komponent //-->
-                    <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding KomponentCommand}"
-                              IsChecked="False"
-                              Height="80">
-                        <Grid>
-                            <Image Source="/Assets/img_home.png"
-                                   Style="{StaticResource Image_Style}"   Height="40" />
-
-                            <TextBlock Text="Компоненты"
-                                       Style="{StaticResource Text_Style}"   />
-                        </Grid>
-                    </Menu:Btn>
-                    
-                    
-                    <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding SumzakazCommand}"
+                      <Menu:Btn Style="{StaticResource BtnStyle}"
+                              Command="{Binding}"
                               IsChecked="False"
                               Height="80">
                         <Grid>
@@ -83,22 +63,8 @@
                             <TextBlock Text="Заказы"
                             Style="{StaticResource Text_Style}" />
                         </Grid>
-                        
-                    </Menu:Btn>
-
-                    <Menu:Btn Style="{StaticResource BtnStyle}"
-                              Command="{Binding ZakaznakompCommand}"
-                              IsChecked="False"
-                              Height="80">
-                        <Grid>
-
-                            <Image Source="/Assets/img_home.png"
-                Style="{StaticResource Image_Style}"/>
-                            <TextBlock Text="Заказы для компаний" FontSize="15"
-                Style="{StaticResource Text_Style}" />
-                        </Grid>
-
-                    </Menu:Btn>
+                            
+                      </Menu:Btn>
                 </StackPanel>
             </Grid>
 

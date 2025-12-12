@@ -24,6 +24,7 @@ namespace KursClientChoco.View
         {
             InitializeComponent();
             Instance = this;
+            
         }
         private void Hyperlink_Click(object sender, RoutedEventArgs e)
         {

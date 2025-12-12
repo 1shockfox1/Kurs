@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
-        xmlns:local="clr-namespace:KursClientChoco.View"
+        xmlns:local="clr-namespace:KursClientChoco.ViewModels" xmlns:vm1="clr-namespace:KursClientChoco.View"
         mc:Ignorable="d"
         Title="registration" Height="300" Width="400">
     <Window.DataContext>

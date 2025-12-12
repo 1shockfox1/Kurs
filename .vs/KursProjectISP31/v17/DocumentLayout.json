@@ -1,0 +1,577 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\student\\source\\repos\\Kurs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\sumzakazview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\sumzakazview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\utills\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\utills\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\viewmodels\\sumzakazviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\viewmodels\\sumzakazviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\viewmodels\\navigationviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\viewmodels\\navigationviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\sumzakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\sumzakazwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\sumzakazview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\sumzakazview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\utills\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\utills\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\utills\\btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\utills\\btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\utills\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\utills\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\registr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\registr.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\registr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\registr.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|c:\\users\\student\\source\\repos\\kurs\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\login.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|c:\\users\\student\\source\\repos\\kurs\\webapi\\model\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\model\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|c:\\users\\student\\source\\repos\\kurs\\webapi\\controllers\\sumzakazcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E6AFCC-DC13-4AD0-AC38-DFDCA53CF31A}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\sumzakazcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\viewmodels\\loginviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\viewmodels\\loginviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\viewmodels\\homeviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\viewmodels\\homeviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\services\\sumzakazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\services\\sumzakazservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\komponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\komponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\helpers\\idkomptoname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\helpers\\idkomptoname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\kursclientchoco.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\kursclientchoco.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\zakaznakomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\zakaznakomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\sumzakaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\sumzakaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|c:\\users\\student\\source\\repos\\kurs\\kursclientchoco\\model\\regi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA4BF39-39F4-4857-B6C7-3757D236FE79}|KursClientChoco\\KursClientChoco.csproj|solutionrelative:kursclientchoco\\model\\regi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 339,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\MainWindow.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:27:13.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavigationViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\NavigationViewModels.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\ViewModels\\NavigationViewModels.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\NavigationViewModels.cs",
+              "RelativeToolTip": "KursClientChoco\\ViewModels\\NavigationViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:35:10.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:27:12.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SumzakazView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazView.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\SumzakazView.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazView.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\View\\SumzakazView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:44:49.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SumzakazWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazWindow.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\SumzakazWindow.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazWindow.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\SumzakazWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:45:11.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SumzakazViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\SumzakazViewModels.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\ViewModels\\SumzakazViewModels.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\SumzakazViewModels.cs",
+              "RelativeToolTip": "KursClientChoco\\ViewModels\\SumzakazViewModels.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:35:51.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\App.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\App.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:55:14.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\App.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\App.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\App.xaml",
+              "RelativeToolTip": "KursClientChoco\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:55:12.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataTemplate.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\DataTemplate.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\Utills\\DataTemplate.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\DataTemplate.xaml",
+              "RelativeToolTip": "KursClientChoco\\Utills\\DataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:25:26.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SumzakazView.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazView.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\SumzakazView.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\SumzakazView.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\SumzakazView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:44:27.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Home.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Home.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Home.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:25:34.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Utills\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\RelayCommand.cs",
+              "RelativeToolTip": "KursClientChoco\\Utills\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:51:38.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Login.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Login.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Login.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\Login.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:25:42.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\student\\Source\\Repos\\Kurs\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\student\\Source\\Repos\\Kurs\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-12T08:52:37.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Btn.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\Btn.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Utills\\Btn.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\Btn.cs",
+              "RelativeToolTip": "KursClientChoco\\Utills\\Btn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:25:25.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Registr.xaml",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Registr.xaml",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Registr.xaml",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Registr.xaml",
+              "RelativeToolTip": "KursClientChoco\\View\\Registr.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-12T07:32:53.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Utills\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Utills\\ViewModelBase.cs",
+              "RelativeToolTip": "KursClientChoco\\Utills\\ViewModelBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:51:49.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Home.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\View\\Home.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:25:38.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Login.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\View\\Login.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:37:56.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Registr.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Registr.xaml.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\View\\Registr.xaml.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\View\\Registr.xaml.cs",
+              "RelativeToolTip": "KursClientChoco\\View\\Registr.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:32:50.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\WebApi\\Model\\SeedData.cs",
+              "RelativeDocumentMoniker": "WebApi\\Model\\SeedData.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\WebApi\\Model\\SeedData.cs",
+              "RelativeToolTip": "WebApi\\Model\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:52:51.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SumzakazController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\WebApi\\Controllers\\SumzakazController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\SumzakazController.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\WebApi\\Controllers\\SumzakazController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\SumzakazController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:52:43.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\LoginViewModels.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\ViewModels\\LoginViewModels.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\LoginViewModels.cs",
+              "RelativeToolTip": "KursClientChoco\\ViewModels\\LoginViewModels.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:34:12.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\HomeViewModels.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\ViewModels\\HomeViewModels.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\ViewModels\\HomeViewModels.cs",
+              "RelativeToolTip": "KursClientChoco\\ViewModels\\HomeViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:34:48.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SumzakazService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\SumzakazService.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Services\\SumzakazService.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\SumzakazService.cs",
+              "RelativeToolTip": "KursClientChoco\\Services\\SumzakazService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:25:05.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\BaseService.cs",
+              "RelativeToolTip": "KursClientChoco\\Services\\BaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:25:03.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Services\\AuthService.cs",
+              "RelativeToolTip": "KursClientChoco\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:23:36.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Person.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Person.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:34.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Komponent.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Komponent.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Komponent.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Komponent.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Komponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:34.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Response.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Response.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Response.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:24:28.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IdKompToName.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Helpers\\IdKompToName.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Helpers\\IdKompToName.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Helpers\\IdKompToName.cs",
+              "RelativeToolTip": "KursClientChoco\\Helpers\\IdKompToName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:30.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KursClientChoco.csproj",
+              "DocumentMoniker": "C:\\Users\\student\\Source\\Repos\\Kurs\\KursClientChoco\\KursClientChoco.csproj",
+              "RelativeDocumentMoniker": "KursClientChoco\\KursClientChoco.csproj",
+              "ToolTip": "C:\\Users\\student\\Source\\Repos\\Kurs\\KursClientChoco\\KursClientChoco.csproj",
+              "RelativeToolTip": "KursClientChoco\\KursClientChoco.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-12T07:55:19.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Zakaznakomp.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Zakaznakomp.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Zakaznakomp.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Zakaznakomp.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Zakaznakomp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:59.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Sumzakaz.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Sumzakaz.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Sumzakaz.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Sumzakaz.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Sumzakaz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:58.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Regi.cs",
+              "DocumentMoniker": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Regi.cs",
+              "RelativeDocumentMoniker": "KursClientChoco\\Model\\Regi.cs",
+              "ToolTip": "C:\\Users\\student\\source\\repos\\Kurs\\KursClientChoco\\Model\\Regi.cs",
+              "RelativeToolTip": "KursClientChoco\\Model\\Regi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:24:36.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

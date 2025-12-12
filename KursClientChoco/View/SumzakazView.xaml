@@ -7,6 +7,7 @@
              xmlns:vm="clr-namespace:KursClientChoco.ViewModels"
              xmlns:Menu="clr-namespace:KursClientChoco.Utills"
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+              d:DesignHeight="500" d:DesignWidth="900"
              mc:Ignorable="d" 
                       xmlns:sys="clr-namespace:System;assembly=mscorlib"
          Style="{StaticResource Page_Style}">
@@ -15,8 +16,8 @@
     </UserControl.DataContext>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="463*"/>
-            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Border CornerRadius="0,20,20,0" Margin="0,5,5,0" Grid.ColumnSpan="2">
             <Grid Margin="15">
@@ -73,7 +74,7 @@
                         <Image Source="/Assets/i.png"/>
                     </Button>
                 </Grid>
-                <DataGrid ItemsSource="{Binding Sumzakazs}"
+                <DataGrid ItemsSource="{Binding SumzakazsList}"
               AutoGenerateColumns="False" Grid.Row="3" IsReadOnly="True"
                   SelectedItem="{Binding SelectedSumzakaz}">
                     <i:Interaction.Triggers>

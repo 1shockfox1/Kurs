@@ -12,7 +12,7 @@ namespace KursClientChoco.Services
 {
     public class AuthService
     {
-       private HttpClient client = new HttpClient();
+        private HttpClient client = new HttpClient();
         public async Task<String> Regi(Person person)
         {
             JsonContent content = JsonContent.Create(person);
@@ -37,5 +37,5 @@ namespace KursClientChoco.Services
             return null!;
         }
     }
- }
+}
 

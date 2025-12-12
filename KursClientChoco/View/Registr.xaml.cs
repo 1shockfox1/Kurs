@@ -27,6 +27,7 @@ namespace KursClientChoco.View
         {
             InitializeComponent();
             authService = new AuthService();
+            DataContext = new Registr();
 
         }
 
